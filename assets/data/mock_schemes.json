@@ -1,0 +1,908 @@
+[
+  {
+    "id": "pm_kisan",
+    "mock": true,
+    "name": "PM Kisan Samman Nidhi",
+    "ministry": "Ministry of Agriculture and Farmers Welfare",
+    "state_or_central": "Central",
+    "benefit_amount": 6000,
+    "benefit_description": "₹6,000 per year directly transferred to bank account in 3 equal installments of ₹2,000",
+    "official_text": "The Pradhan Mantri Kisan Samman Nidhi (PM-KISAN) is a Central Sector scheme to provide income support to all landholding farmers' families in the country to supplement their financial needs for procuring various inputs related to agriculture and allied activities as well as domestic needs.",
+    "simplified_text": "If you or your family owns cultivable farm land, the government sends ₹2,000 directly to your bank account every four months (total ₹6,000 each year) to help buy seeds, fertilizers, or cover family expenses.",
+    "eligibility_rules": {
+      "min_age": 18,
+      "max_age": 100,
+      "occupations": [
+        "farmer",
+        "laborer"
+      ],
+      "max_annual_income": 300000,
+      "areas": [
+        "rural",
+        "urban"
+      ],
+      "states": [
+        "ALL"
+      ],
+      "genders": [
+        "ALL"
+      ],
+      "needs": [
+        "farming",
+        "money"
+      ]
+    },
+    "documents_required": [
+      {
+        "name": "Aadhaar Card",
+        "photo_hint": "Front side showing clear 12-digit number and full name",
+        "plain_reason": "Verifies your identity and citizenship"
+      },
+      {
+        "name": "Land Ownership Record (Khatauni / Patta)",
+        "photo_hint": "Official revenue document showing your name as landholder",
+        "plain_reason": "Proves you own cultivable farmland"
+      },
+      {
+        "name": "Bank Passbook or Cancelled Cheque",
+        "photo_hint": "First page showing account number and IFSC code clearly",
+        "plain_reason": "Ensures the ₹2,000 installment reaches your active account"
+      }
+    ],
+    "apply_url": "https://pmkisan.gov.in",
+    "physical_office": "Gram Panchayat or Common Service Centre (CSC) in your village",
+    "deadline": "Open year-round",
+    "last_checked": "24 October 2026",
+    "ease_score": 0.85
+  },
+  {
+    "id": "ayushman_bharat",
+    "mock": true,
+    "name": "Ayushman Bharat - PM Jan Arogya Yojana (PM-JAY)",
+    "ministry": "Ministry of Health and Family Welfare",
+    "state_or_central": "Central",
+    "benefit_amount": 500000,
+    "benefit_description": "Cashless hospitalization health cover of up to ₹5,00,000 per family per year",
+    "official_text": "Ayushman Bharat PM-JAY is the world's largest government-funded healthcare assurance scheme offering secondary and tertiary care hospitalization coverage of up to INR 5 Lakh per eligible beneficiary family per annum across empaneled public and private health facilities.",
+    "simplified_text": "Free treatment and hospital stay up to ₹5 Lakh every year for your entire family across participating hospitals. You do not have to pay cash up front for covered surgeries and illnesses.",
+    "eligibility_rules": {
+      "min_age": 0,
+      "max_age": 100,
+      "occupations": [
+        "ALL"
+      ],
+      "max_annual_income": 250000,
+      "areas": [
+        "rural",
+        "urban"
+      ],
+      "states": [
+        "ALL"
+      ],
+      "genders": [
+        "ALL"
+      ],
+      "needs": [
+        "health",
+        "money"
+      ]
+    },
+    "documents_required": [
+      {
+        "name": "Aadhaar Card",
+        "photo_hint": "Original card with clear QR code",
+        "plain_reason": "Links biometric profile to health registry"
+      },
+      {
+        "name": "Ration Card or SECC Family ID",
+        "photo_hint": "Ration card showing list of all family members",
+        "plain_reason": "Confirms household eligibility under deprivation criteria"
+      }
+    ],
+    "apply_url": "https://beneficiary.nha.gov.in",
+    "physical_office": "Ayushman Mitra desk at your nearest District Hospital or CSC",
+    "deadline": "Open year-round",
+    "last_checked": "24 October 2026",
+    "ease_score": 0.9
+  },
+  {
+    "id": "pm_awas_rural",
+    "mock": true,
+    "name": "Pradhan Mantri Awas Yojana - Gramin",
+    "ministry": "Ministry of Rural Development",
+    "state_or_central": "Central",
+    "benefit_amount": 130000,
+    "benefit_description": "Grant of ₹1.20 Lakh to ₹1.30 Lakh for building a pucca house with toilet facility",
+    "official_text": "PMAY-G aims to provide financial assistance to rural BPL, homeless, or kutcha house dweller households for construction of a pucca house with basic amenities including piped water, clean cooking gas, and sanitation.",
+    "simplified_text": "If you live in a village without a solid cement house, the government provides money directly in stages into your bank account (around ₹1.20 to ₹1.30 Lakh) so you can construct a safe brick home.",
+    "eligibility_rules": {
+      "min_age": 18,
+      "max_age": 100,
+      "occupations": [
+        "farmer",
+        "laborer",
+        "homemaker",
+        "other"
+      ],
+      "max_annual_income": 180000,
+      "areas": [
+        "rural"
+      ],
+      "states": [
+        "ALL"
+      ],
+      "genders": [
+        "ALL"
+      ],
+      "needs": [
+        "housing",
+        "money"
+      ]
+    },
+    "documents_required": [
+      {
+        "name": "Aadhaar Card",
+        "photo_hint": "Clear front and back image",
+        "plain_reason": "Verifies individual beneficiary identity"
+      },
+      {
+        "name": "Bank Account Details (DBT enabled)",
+        "photo_hint": "Bank passbook page with Aadhaar seed stamp",
+        "plain_reason": "Construction funds are credited directly in 3 installments"
+      },
+      {
+        "name": "MGNREGA Job Card (if registered)",
+        "photo_hint": "Current job card showing active registration",
+        "plain_reason": "Provides 90-95 days of additional construction labor wages"
+      },
+      {
+        "name": "Photograph of current Kutcha house",
+        "photo_hint": "Photo of beneficiary standing in front of current dwelling",
+        "plain_reason": "Proves lack of pucca accommodation"
+      }
+    ],
+    "apply_url": "https://pmayg.nic.in",
+    "physical_office": "Gram Sevak or Village Panchayat Secretary office",
+    "deadline": "Rolling enrollment through Gram Sabha",
+    "last_checked": "24 October 2026",
+    "ease_score": 0.7
+  },
+  {
+    "id": "sukanya_samriddhi",
+    "mock": true,
+    "name": "Sukanya Samriddhi Yojana",
+    "ministry": "Ministry of Finance",
+    "state_or_central": "Central",
+    "benefit_amount": 75000,
+    "benefit_description": "High government interest savings account (8.2% p.a.) with full tax exemption for a girl child's education and future",
+    "official_text": "The Sukanya Samriddhi Account is a government-backed savings initiative launched under the Beti Bachao, Beti Padhao campaign targeting parents of girl children to secure funds for higher education and marriage.",
+    "simplified_text": "A special government savings scheme for girl children below age 10. You can deposit small amounts (from ₹250 a year) and get the highest safe government interest rate to pay for her higher studies later.",
+    "eligibility_rules": {
+      "min_age": 0,
+      "max_age": 10,
+      "occupations": [
+        "ALL"
+      ],
+      "max_annual_income": 9999999,
+      "areas": [
+        "rural",
+        "urban"
+      ],
+      "states": [
+        "ALL"
+      ],
+      "genders": [
+        "woman",
+        "female"
+      ],
+      "needs": [
+        "education",
+        "money"
+      ]
+    },
+    "documents_required": [
+      {
+        "name": "Girl Child Birth Certificate",
+        "photo_hint": "Official municipal or panchayat birth certificate showing date of birth",
+        "plain_reason": "Proves girl child is below 10 years of age"
+      },
+      {
+        "name": "Parent/Guardian Aadhaar Card",
+        "photo_hint": "Aadhaar of father or mother",
+        "plain_reason": "Identifies legal guardian opening account"
+      },
+      {
+        "name": "Initial Deposit Slip (min ₹250)",
+        "photo_hint": "Cash or cheque pay-in slip",
+        "plain_reason": "Activates the post office or bank account"
+      }
+    ],
+    "apply_url": "https://www.indiapost.gov.in",
+    "physical_office": "Nearest India Post Office branch or authorized nationalized bank",
+    "deadline": "Open year-round before child turns 10",
+    "last_checked": "24 October 2026",
+    "ease_score": 0.95
+  },
+  {
+    "id": "pm_svanidhi",
+    "mock": true,
+    "name": "PM Street Vendor's AtmaNirbhar Nidhi (PM SVANidhi)",
+    "ministry": "Ministry of Housing and Urban Affairs",
+    "state_or_central": "Central",
+    "benefit_amount": 50000,
+    "benefit_description": "Collateral-free working capital micro-credit starting at ₹10,000 up to ₹50,000 with 7% interest subsidy",
+    "official_text": "PM SVANidhi is a special micro-credit facility for street vendors in urban and peri-urban areas providing collateral-free loans with cashback on digital transactions and interest subsidy on timely repayment.",
+    "simplified_text": "If you sell fruits, vegetables, tea, snacks, or wares on a cart or footpath in a town or city, you can get a loan of ₹10,000 to ₹50,000 without giving any mortgage or property papers, to help restart or grow your business.",
+    "eligibility_rules": {
+      "min_age": 18,
+      "max_age": 70,
+      "occupations": [
+        "business",
+        "laborer",
+        "other"
+      ],
+      "max_annual_income": 300000,
+      "areas": [
+        "urban"
+      ],
+      "states": [
+        "ALL"
+      ],
+      "genders": [
+        "ALL"
+      ],
+      "needs": [
+        "money",
+        "jobs"
+      ]
+    },
+    "documents_required": [
+      {
+        "name": "Aadhaar Card",
+        "photo_hint": "Linked with active mobile number",
+        "plain_reason": "Instant KYC verification"
+      },
+      {
+        "name": "Vending Certificate / Urban Local Body ID",
+        "photo_hint": "Letter of recommendation from town municipal council or ID card",
+        "plain_reason": "Confirms you are an active street vendor"
+      }
+    ],
+    "apply_url": "https://pmsvanidhi.mohua.gov.in",
+    "physical_office": "Local Municipal Corporation office or partner Bank branch",
+    "deadline": "Ongoing credit scheme",
+    "last_checked": "24 October 2026",
+    "ease_score": 0.88
+  },
+  {
+    "id": "pm_vishwakarma",
+    "mock": true,
+    "name": "PM Vishwakarma Scheme",
+    "ministry": "Ministry of Micro, Small and Medium Enterprises",
+    "state_or_central": "Central",
+    "benefit_amount": 315000,
+    "benefit_description": "Free skill training, ₹15,000 toolkit incentive, and collateral-free loans up to ₹3,00,000 at concessional 5% interest",
+    "official_text": "PM Vishwakarma offers end-to-end support to traditional artisans and craftspeople across 18 designated trades, including financial credit, skill upgrading, toolkit vouchers, and market linkages.",
+    "simplified_text": "For traditional craftspeople and artisans (like carpenters, blacksmiths, tailors, potters, cobblers, weavers, barbers). You get certified training, a ₹15,000 kit voucher for modern tools, and low-interest business loans.",
+    "eligibility_rules": {
+      "min_age": 18,
+      "max_age": 65,
+      "occupations": [
+        "laborer",
+        "business",
+        "other"
+      ],
+      "max_annual_income": 400000,
+      "areas": [
+        "rural",
+        "urban"
+      ],
+      "states": [
+        "ALL"
+      ],
+      "genders": [
+        "ALL"
+      ],
+      "needs": [
+        "jobs",
+        "money",
+        "education"
+      ]
+    },
+    "documents_required": [
+      {
+        "name": "Aadhaar Card",
+        "photo_hint": "Clear biometric identification",
+        "plain_reason": "Validates name and age"
+      },
+      {
+        "name": "Trade Self-Declaration",
+        "photo_hint": "Signed statement stating your traditional artisan trade",
+        "plain_reason": "Verifies you practice one of the 18 eligible trades"
+      },
+      {
+        "name": "Bank Account Details",
+        "photo_hint": "Passbook copy for direct stipend and toolkit grant",
+        "plain_reason": "Credit of ₹15,000 toolkit voucher"
+      }
+    ],
+    "apply_url": "https://pmvishwakarma.gov.in",
+    "physical_office": "Common Service Centre (CSC) in your area",
+    "deadline": "Open year-round",
+    "last_checked": "24 October 2026",
+    "ease_score": 0.8
+  },
+  {
+    "id": "indira_gandhi_pension",
+    "mock": true,
+    "name": "National Old Age Social Assistance (NSAP)",
+    "ministry": "Ministry of Rural Development",
+    "state_or_central": "Central",
+    "benefit_amount": 12000,
+    "benefit_description": "Monthly pension of ₹1,000 to ₹2,500 transferred directly to elderly citizens living below poverty line",
+    "official_text": "The National Social Assistance Programme provides monthly social security pension support to elderly destitute citizens aged 60 and above belonging to BPL households.",
+    "simplified_text": "A guaranteed monthly pension for senior citizens (age 60 or above) who are in poor families, so they have independent pocket money for medicines and food every single month.",
+    "eligibility_rules": {
+      "min_age": 60,
+      "max_age": 110,
+      "occupations": [
+        "ALL"
+      ],
+      "max_annual_income": 120000,
+      "areas": [
+        "rural",
+        "urban"
+      ],
+      "states": [
+        "ALL"
+      ],
+      "genders": [
+        "ALL"
+      ],
+      "needs": [
+        "money",
+        "health"
+      ]
+    },
+    "documents_required": [
+      {
+        "name": "Age Proof (Aadhaar or Voter ID)",
+        "photo_hint": "Document proving age 60 or above",
+        "plain_reason": "Confirms age eligibility"
+      },
+      {
+        "name": "BPL Card or Low-Income Certificate",
+        "photo_hint": "Signed by Tahsildar / Revenue Inspector",
+        "plain_reason": "Confirms economic vulnerability"
+      },
+      {
+        "name": "Bank / Post Office Passbook",
+        "photo_hint": "First page showing single-holder savings account",
+        "plain_reason": "Monthly pension auto-deposit"
+      }
+    ],
+    "apply_url": "https://nsap.nic.in",
+    "physical_office": "Taluk / Block Development Office (BDO) or Social Welfare Office",
+    "deadline": "Continuous enrollment",
+    "last_checked": "24 October 2026",
+    "ease_score": 0.75
+  },
+  {
+    "id": "divyang_swavalamban",
+    "mock": true,
+    "name": "Divyangjan Swavalamban Yojana",
+    "ministry": "Ministry of Social Justice and Empowerment",
+    "state_or_central": "Central",
+    "benefit_amount": 500000,
+    "benefit_description": "Concessional loans up to ₹5 Lakh at 4-6% interest plus free assistive aids and prosthetics",
+    "official_text": "Provides accessible credit financing and self-employment promotion for persons with 40% or more disability, along with motorized tricycles, braille kits, and hearing aids.",
+    "simplified_text": "If you or a family member has a physical or sensory disability (40% or more), you can receive free assistive devices (hearing aids, tricycle, braille materials) and low-interest loans to start your own shop or work.",
+    "eligibility_rules": {
+      "min_age": 18,
+      "max_age": 70,
+      "occupations": [
+        "ALL"
+      ],
+      "max_annual_income": 300000,
+      "areas": [
+        "rural",
+        "urban"
+      ],
+      "states": [
+        "ALL"
+      ],
+      "genders": [
+        "ALL"
+      ],
+      "needs": [
+        "health",
+        "jobs",
+        "money"
+      ],
+      "requires_disability": true
+    },
+    "documents_required": [
+      {
+        "name": "UDID (Unique Disability ID) or Medical Certificate",
+        "photo_hint": "Hospital certificate showing 40% or greater disability",
+        "plain_reason": "Medical proof required by Department of Empowerment of PwDs"
+      },
+      {
+        "name": "Aadhaar Card",
+        "photo_hint": "Front and back photocopy",
+        "plain_reason": "Identity authentication"
+      },
+      {
+        "name": "Income Certificate",
+        "photo_hint": "Annual family income certificate",
+        "plain_reason": "Confirms priority for subsidy"
+      }
+    ],
+    "apply_url": "https://www.swavlambancard.gov.in",
+    "physical_office": "District Disability Rehabilitation Centre (DDRC)",
+    "deadline": "Open year-round",
+    "last_checked": "24 October 2026",
+    "ease_score": 0.78
+  },
+  {
+    "id": "post_matric_sc_st",
+    "mock": true,
+    "name": "Post-Matric Scholarship for SC/ST Students",
+    "ministry": "Ministry of Social Justice and Empowerment",
+    "state_or_central": "Central",
+    "benefit_amount": 40000,
+    "benefit_description": "100% tuition fee waiver plus monthly study allowance of ₹1,500 to ₹3,500 for college education",
+    "official_text": "Centrally sponsored scholarship scheme to provide financial support to SC and ST students studying at post-secondary or college levels to reduce dropouts in higher education.",
+    "simplified_text": "For SC and ST students who passed 10th class and are studying in 11th, 12th, ITI, diploma, or degree college. It covers college fees and gives monthly allowance for books and living costs.",
+    "eligibility_rules": {
+      "min_age": 15,
+      "max_age": 30,
+      "occupations": [
+        "student"
+      ],
+      "max_annual_income": 250000,
+      "areas": [
+        "rural",
+        "urban"
+      ],
+      "states": [
+        "ALL"
+      ],
+      "genders": [
+        "ALL"
+      ],
+      "needs": [
+        "education",
+        "money"
+      ]
+    },
+    "documents_required": [
+      {
+        "name": "Caste Certificate (SC/ST)",
+        "photo_hint": "Official sub-divisional magistrate caste certificate",
+        "plain_reason": "Validates reservation category"
+      },
+      {
+        "name": "10th Marksheet / Previous Year Result",
+        "photo_hint": "Passing certificate with score card",
+        "plain_reason": "Confirms completion of secondary education"
+      },
+      {
+        "name": "College Admission Fee Receipt",
+        "photo_hint": "Valid fee receipt with student roll number",
+        "plain_reason": "Calculates reimbursable fee amount"
+      },
+      {
+        "name": "Family Income Certificate",
+        "photo_hint": "Issued by revenue department within last 6 months",
+        "plain_reason": "Verifies family income is under ₹2.5 Lakh"
+      }
+    ],
+    "apply_url": "https://scholarships.gov.in",
+    "physical_office": "District Social Welfare Office or College Scholarship Clerk",
+    "deadline": "30 November 2026",
+    "last_checked": "24 October 2026",
+    "ease_score": 0.82
+  },
+  {
+    "id": "stand_up_india",
+    "mock": true,
+    "name": "Stand-Up India Scheme for Women and SC/ST Entrepreneurs",
+    "ministry": "Ministry of Finance",
+    "state_or_central": "Central",
+    "benefit_amount": 1000000,
+    "benefit_description": "Bank loans between ₹10 Lakh and ₹1 Crore for setting up greenfield manufacturing, services, or trading enterprises",
+    "official_text": "Facilitates bank loans between 10 lakh and 1 crore to at least one SC or ST borrower and at least one woman borrower per bank branch for setting up a new business enterprise.",
+    "simplified_text": "If you are a woman or from SC/ST category looking to start a new business or small factory, nationalized banks must provide business loans from ₹10 Lakh upwards with government backing.",
+    "eligibility_rules": {
+      "min_age": 18,
+      "max_age": 65,
+      "occupations": [
+        "business",
+        "other"
+      ],
+      "max_annual_income": 9999999,
+      "areas": [
+        "rural",
+        "urban"
+      ],
+      "states": [
+        "ALL"
+      ],
+      "genders": [
+        "woman",
+        "female"
+      ],
+      "needs": [
+        "jobs",
+        "money"
+      ]
+    },
+    "documents_required": [
+      {
+        "name": "Business Project Report",
+        "photo_hint": "Summary of business plan and estimated costs",
+        "plain_reason": "Bank reviews viability of project"
+      },
+      {
+        "name": "Aadhaar and PAN Card",
+        "photo_hint": "Clear individual identity proof",
+        "plain_reason": "KYC and tax profile check"
+      },
+      {
+        "name": "Caste Certificate (if applying under SC/ST)",
+        "photo_hint": "Revenue certificate",
+        "plain_reason": "Verifies category quota"
+      }
+    ],
+    "apply_url": "https://www.standupmitra.in",
+    "physical_office": "Any Scheduled Commercial Bank branch (Lead District Manager)",
+    "deadline": "Open year-round",
+    "last_checked": "24 October 2026",
+    "ease_score": 0.65
+  },
+  {
+    "id": "pm_ujjwala",
+    "mock": true,
+    "name": "Pradhan Mantri Ujjwala Yojana 2.0",
+    "ministry": "Ministry of Petroleum and Natural Gas",
+    "state_or_central": "Central",
+    "benefit_amount": 2200,
+    "benefit_description": "Free LPG gas connection with stove and first 14.2kg gas cylinder refill completely free of cost",
+    "official_text": "Provides deposit-free LPG connections to adult women from poor households, including gas regulator, safety pipe, stove, and complimentary first refill.",
+    "simplified_text": "Gives a free clean cooking gas cylinder and stove in the name of the woman of the house, so you no longer have to cook with smoke-heavy firewood or cow dung cakes.",
+    "eligibility_rules": {
+      "min_age": 18,
+      "max_age": 90,
+      "occupations": [
+        "homemaker",
+        "laborer",
+        "farmer",
+        "other"
+      ],
+      "max_annual_income": 200000,
+      "areas": [
+        "rural",
+        "urban"
+      ],
+      "states": [
+        "ALL"
+      ],
+      "genders": [
+        "woman",
+        "female"
+      ],
+      "needs": [
+        "housing",
+        "health",
+        "money"
+      ]
+    },
+    "documents_required": [
+      {
+        "name": "Woman's Aadhaar Card",
+        "photo_hint": "Showing full date of birth and address",
+        "plain_reason": "Connection is registered strictly in the woman's name"
+      },
+      {
+        "name": "Ration Card with family members list",
+        "photo_hint": "Active state ration card",
+        "plain_reason": "Confirms no prior LPG connection exists in household"
+      },
+      {
+        "name": "Bank Account Details (Aadhaar linked)",
+        "photo_hint": "Bank passbook photocopy",
+        "plain_reason": "Enables future gas cylinder subsidy credits"
+      }
+    ],
+    "apply_url": "https://www.pmuy.gov.in",
+    "physical_office": "Nearest Indane, Bharatgas, or HP Gas agency",
+    "deadline": "Open year-round",
+    "last_checked": "24 October 2026",
+    "ease_score": 0.92
+  },
+  {
+    "id": "kisan_credit_card",
+    "mock": true,
+    "name": "Kisan Credit Card (KCC) Crop Loan",
+    "ministry": "Ministry of Agriculture and Farmers Welfare",
+    "state_or_central": "Central",
+    "benefit_amount": 300000,
+    "benefit_description": "Short-term agricultural loan up to ₹3 Lakh at an effective low interest rate of just 4% on timely repayment",
+    "official_text": "Provides adequate and timely credit support from the banking system to farmers for their cultivation and agricultural needs, including post-harvest expenses and maintenance.",
+    "simplified_text": "A low-interest debit/credit card for farmers to buy fertilizers, seeds, and equipment during crop season. Pay only 4% annual interest if paid on time.",
+    "eligibility_rules": {
+      "min_age": 18,
+      "max_age": 75,
+      "occupations": [
+        "farmer"
+      ],
+      "max_annual_income": 500000,
+      "areas": [
+        "rural"
+      ],
+      "states": [
+        "ALL"
+      ],
+      "genders": [
+        "ALL"
+      ],
+      "needs": [
+        "farming",
+        "money"
+      ]
+    },
+    "documents_required": [
+      {
+        "name": "Land Record (7/12 extract or Patta)",
+        "photo_hint": "Updated revenue extract showing crop sown",
+        "plain_reason": "Determines loan limit based on crop area"
+      },
+      {
+        "name": "Aadhaar and PAN Card",
+        "photo_hint": "Identification cards",
+        "plain_reason": "Bank KYC"
+      },
+      {
+        "name": "No-Dues Certificate from local cooperative bank",
+        "photo_hint": "Issued by village primary cooperative society",
+        "plain_reason": "Ensures no overlapping crop defaults"
+      }
+    ],
+    "apply_url": "https://www.myscheme.gov.in",
+    "physical_office": "Rural bank or District Central Cooperative Bank branch",
+    "deadline": "Before Kharif / Rabi sowing cycle",
+    "last_checked": "24 October 2026",
+    "ease_score": 0.81
+  },
+  {
+    "id": "national_apprenticeship",
+    "mock": true,
+    "name": "National Apprenticeship Promotion Scheme (NAPS)",
+    "ministry": "Ministry of Skill Development and Entrepreneurship",
+    "state_or_central": "Central",
+    "benefit_amount": 18000,
+    "benefit_description": "Paid on-the-job industrial apprenticeship with monthly government stipend support of ₹1,500 (plus company wage)",
+    "official_text": "Promotes apprenticeship training in industrial establishments by sharing 25% of prescribed stipend subject to a maximum of INR 1,500 per month per apprentice.",
+    "simplified_text": "For youth looking for jobs or training after school or college. Work inside reputable factories or companies while learning a practical trade and receiving a guaranteed monthly salary.",
+    "eligibility_rules": {
+      "min_age": 18,
+      "max_age": 28,
+      "occupations": [
+        "student",
+        "laborer",
+        "other"
+      ],
+      "max_annual_income": 400000,
+      "areas": [
+        "rural",
+        "urban"
+      ],
+      "states": [
+        "ALL"
+      ],
+      "genders": [
+        "ALL"
+      ],
+      "needs": [
+        "jobs",
+        "education",
+        "money"
+      ]
+    },
+    "documents_required": [
+      {
+        "name": "Educational Certificate (10th/12th/ITI/Diploma)",
+        "photo_hint": "Final passing certificate",
+        "plain_reason": "Maps you to eligible skill trades"
+      },
+      {
+        "name": "Aadhaar Card",
+        "photo_hint": "Front and back image",
+        "plain_reason": "DBT stipend linking"
+      },
+      {
+        "name": "Active Bank Account Passbook",
+        "photo_hint": "First page of account details",
+        "plain_reason": "Direct government share transfer"
+      }
+    ],
+    "apply_url": "https://www.apprenticeshipindia.gov.in",
+    "physical_office": "Government ITI or District Skill Development Office",
+    "deadline": "Open year-round",
+    "last_checked": "24 October 2026",
+    "ease_score": 0.86
+  },
+  {
+    "id": "pm_matru_vandana",
+    "mock": true,
+    "name": "Pradhan Mantri Matru Vandana Yojana (PMMVY)",
+    "ministry": "Ministry of Women and Child Development",
+    "state_or_central": "Central",
+    "benefit_amount": 5000,
+    "benefit_description": "Maternity cash incentive of ₹5,000 in two installments for pregnant women and lactating mothers for wage compensation and nutrition",
+    "official_text": "A conditional cash transfer maternity benefit scheme providing partial compensation for wage loss during pregnancy and childbirth so that women can take adequate rest and maintain good nutrition.",
+    "simplified_text": "Pregnant mothers receive ₹5,000 cash in their bank account to buy healthy food and medicines during their first pregnancy and after the baby's vaccination.",
+    "eligibility_rules": {
+      "min_age": 19,
+      "max_age": 45,
+      "occupations": [
+        "homemaker",
+        "laborer",
+        "farmer",
+        "other"
+      ],
+      "max_annual_income": 250000,
+      "areas": [
+        "rural",
+        "urban"
+      ],
+      "states": [
+        "ALL"
+      ],
+      "genders": [
+        "woman",
+        "female"
+      ],
+      "needs": [
+        "health",
+        "money"
+      ]
+    },
+    "documents_required": [
+      {
+        "name": "Mother-Child Protection (MCP) Card",
+        "photo_hint": "Green/pink card issued by Anganwadi or ANM nurse",
+        "plain_reason": "Records prenatal checkups and institutional delivery"
+      },
+      {
+        "name": "Mother and Husband Aadhaar Cards",
+        "photo_hint": "Clear Aadhaar card images",
+        "plain_reason": "Identifies mother and spouse"
+      },
+      {
+        "name": "Bank Passbook of Mother",
+        "photo_hint": "Single bank account in the mother's name only",
+        "plain_reason": "Government rules require funds to go directly to the mother"
+      }
+    ],
+    "apply_url": "https://pmmvy.wcd.gov.in",
+    "physical_office": "Your local village Anganwadi Centre (ASHA / AWW worker)",
+    "deadline": "Within 270 days of pregnancy registration",
+    "last_checked": "24 October 2026",
+    "ease_score": 0.89
+  },
+  {
+    "id": "mgnrega_guarantee",
+    "mock": true,
+    "name": "Mahatma Gandhi National Rural Employment Guarantee Scheme (MGNREGA)",
+    "ministry": "Ministry of Rural Development",
+    "state_or_central": "Central",
+    "benefit_amount": 28000,
+    "benefit_description": "Legal guarantee of 100 days of wage employment per financial year for adult members of rural households willing to do manual work",
+    "official_text": "Enhances livelihood security in rural areas by providing at least 100 days of guaranteed wage employment in every financial year to every household whose adult members volunteer to do unskilled manual work.",
+    "simplified_text": "If you live in a village and need work, the government guarantees you 100 days of paid work every year near your home (ponds, roads, tree planting) with fixed daily wages transferred to your bank.",
+    "eligibility_rules": {
+      "min_age": 18,
+      "max_age": 70,
+      "occupations": [
+        "laborer",
+        "farmer",
+        "other"
+      ],
+      "max_annual_income": 200000,
+      "areas": [
+        "rural"
+      ],
+      "states": [
+        "ALL"
+      ],
+      "genders": [
+        "ALL"
+      ],
+      "needs": [
+        "jobs",
+        "money"
+      ]
+    },
+    "documents_required": [
+      {
+        "name": "Aadhaar Card",
+        "photo_hint": "Clear copy",
+        "plain_reason": "Identity and ABPS wage payment verification"
+      },
+      {
+        "name": "Passport-sized photograph of all adult family members",
+        "photo_hint": "Standard passport photos",
+        "plain_reason": "Pasted on family Job Card"
+      },
+      {
+        "name": "Bank / Post Office Passbook",
+        "photo_hint": "Account details for weekly wage transfer",
+        "plain_reason": "Wages are credited electronically"
+      }
+    ],
+    "apply_url": "https://nrega.nic.in",
+    "physical_office": "Gram Panchayat Bhawan / Gram Rozgar Sahayak",
+    "deadline": "Apply anytime at your Gram Panchayat",
+    "last_checked": "24 October 2026",
+    "ease_score": 0.94
+  },
+  {
+    "id": "pm_egp",
+    "mock": true,
+    "name": "Prime Minister's Employment Generation Programme (PMEGP)",
+    "ministry": "Ministry of Micro, Small and Medium Enterprises",
+    "state_or_central": "Central",
+    "benefit_amount": 5000000,
+    "benefit_description": "Government subsidy up to 35% on project cost for setting up new micro-enterprises and small factories",
+    "official_text": "Credit-linked subsidy programme aimed at generating self-employment opportunities through establishment of micro-enterprises in non-farm sector.",
+    "simplified_text": "Want to start a small workshop, flour mill, packaging business, or manufacturing unit? The government pays 15% to 35% of the total cost as a non-repayable subsidy, and the bank funds the rest.",
+    "eligibility_rules": {
+      "min_age": 18,
+      "max_age": 60,
+      "occupations": [
+        "business",
+        "laborer",
+        "other"
+      ],
+      "max_annual_income": 9999999,
+      "areas": [
+        "rural",
+        "urban"
+      ],
+      "states": [
+        "ALL"
+      ],
+      "genders": [
+        "ALL"
+      ],
+      "needs": [
+        "jobs",
+        "money"
+      ]
+    },
+    "documents_required": [
+      {
+        "name": "Detailed Project Report (DPR)",
+        "photo_hint": "Summary of machinery, rent, and working capital costs",
+        "plain_reason": "Evaluated by District Task Force Committee"
+      },
+      {
+        "name": "Educational Qualification Certificate (8th pass or above)",
+        "photo_hint": "School leaving certificate or marksheet",
+        "plain_reason": "Mandatory for projects above ₹10 Lakh"
+      },
+      {
+        "name": "Special Category Certificate (SC/ST/OBC/Women/Ex-servicemen/PwD)",
+        "photo_hint": "Official issuing authority document",
+        "plain_reason": "Higher subsidy (up to 35% in rural areas)"
+      }
+    ],
+    "apply_url": "https://www.kviconline.gov.in/pmegpeportal",
+    "physical_office": "District Industries Centre (DIC) or KVIC State Office",
+    "deadline": "Open throughout financial year",
+    "last_checked": "24 October 2026",
+    "ease_score": 0.68
+  }
+]
